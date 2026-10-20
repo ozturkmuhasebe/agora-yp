@@ -1,6 +1,6 @@
 // AGORA YP kabuğu - yalnızca kendi dosyalarını önbelleğe alır.
 // Panel verileri (Google) HİÇ önbelleğe alınmaz; her açılışta güncel gelir.
-var SURUM = "agorayp-v1";
+var SURUM = "agorayp-v2";
 var DOSYALAR = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "apple-touch-icon.png", "favicon.png", "logo.png"];
 
 self.addEventListener("install", function (e) {
